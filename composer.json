@@ -1,0 +1,19 @@
+{
+    "name": "tarekdj/composer-downloader",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.0",
+        "composer/composer": "*",
+        "splitbrain/php-archive": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tarekdj\\Composer\\": "src"
+        }
+    },
+    "extra": {
+        "class": "Tarekdj\\Composer\\Plugin"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
